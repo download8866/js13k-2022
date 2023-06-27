@@ -66,7 +66,7 @@ export let page_update = () => {
   let songAudioSource: AudioBufferSourceNode | undefined;
 
   const updateMusicOnState = () => {
-    b4.innerHTML = "Music: " + music_on;
+    b4.innerHTML = "🎵音乐: " + music_on;
     if (songAudioSource) {
       if (mainMenuVisible || !music_on) {
         songAudioSource.disconnect();

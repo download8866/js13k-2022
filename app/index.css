@@ -1,7 +1,7 @@
 * {
   -webkit-user-select: none;
   user-select: none;
-  color: #fda;
+  color: #fff;
   font-weight: 100;
   touch-action: none;
   overscroll-behavior: contain;
@@ -26,9 +26,10 @@ body > * {
 }
 
 /* menu title */
-h2 {
-  color: #f61;
+nav > h2 {
+  color: #fff;
   margin: 0 0 0.7em;
+  text-align: center;
 }
 
 /* messages */
@@ -58,10 +59,14 @@ h4 {
 
 /* main menu inner */
 nav {
-  background: #00000080;
+  background: #000000;
   border-radius: 1em;
   max-width: max(780px, 50vw);
   padding: 1em;
+  margin: 1em;
+}
+ul {
+  list-style: none;
 }
 
 /* menu hamburger */
@@ -89,13 +94,13 @@ li {
 }
 
 /* menu title */
-h2,
+/* h2, */
 /* links hover */
-a:hover,
+/* a:hover, */
 /* menu button hover */
-li:hover {
+/* li:hover {
   border-bottom: 3px solid;
-}
+} */
 
 /* hide main menu by default */
 main,
@@ -104,4 +109,8 @@ main,
 /* hide the collision canvas */
 #hD {
   display: none;
+}
+
+#b4 {
+  content: "🎵";
 }
